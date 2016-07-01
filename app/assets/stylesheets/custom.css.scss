@@ -1,6 +1,6 @@
-/*
- *= require font-awesome
- */
+// /*
+// *= require font-awesome
+// */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -15,3 +15,10 @@
   background: linear-gradient(to left, #000000 , #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+label {
+  display: block;
+}
+
+.btn-primary:hover {
+  background: #106F2C;
+}
