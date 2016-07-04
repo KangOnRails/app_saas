@@ -1,1 +1,20 @@
-<h2>Home</h2>
+<div class="jumbotron class-center">
+    <h1>Welcome to KangRORdev</h1>
+    <h3>Where the magic happens without your permission</h3>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Basic Membership</h2>
+            <h4 class="text-center">Sign up for free and get basic access to content</h4>
+            <%= link_to "Sign Up 4 Basic", new_user_registration_path, class: 'btn btn-primary navbar-btn btn-lg btn-block login-color' %>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="well">
+            <h2 class="text-center">Premium Membership</h2>
+            <h4 class="text-center">Sign up and get premium access to all content</h4>
+            <%= link_to "Sign Up 4 Premium", new_user_registration_path, class: 'btn btn-success navbar-btn btn-lg btn-block sign-up-color' %>
+        </div>
+    </div>
+</div>
